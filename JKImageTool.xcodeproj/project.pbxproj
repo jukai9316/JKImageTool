@@ -15,6 +15,7 @@
 		E0701E441FE12FCA00CA3B20 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E0701E431FE12FCA00CA3B20 /* main.m */; };
 		E0701E4E1FE12FCA00CA3B20 /* JKImageToolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E0701E4D1FE12FCA00CA3B20 /* JKImageToolTests.m */; };
 		E0701E591FE12FCA00CA3B20 /* JKImageToolUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E0701E581FE12FCA00CA3B20 /* JKImageToolUITests.m */; };
+		E0701E6C1FE1304300CA3B20 /* JKImageTool.m in Sources */ = {isa = PBXBuildFile; fileRef = E0701E6B1FE1304300CA3B20 /* JKImageTool.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		E0701E541FE12FCA00CA3B20 /* JKImageToolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JKImageToolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0701E581FE12FCA00CA3B20 /* JKImageToolUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKImageToolUITests.m; sourceTree = "<group>"; };
 		E0701E5A1FE12FCA00CA3B20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0701E6A1FE1304300CA3B20 /* JKImageTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JKImageTool.h; sourceTree = "<group>"; };
+		E0701E6B1FE1304300CA3B20 /* JKImageTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKImageTool.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		E0701E331FE12FCA00CA3B20 /* JKImageTool */ = {
 			isa = PBXGroup;
 			children = (
+				E0701E661FE1300400CA3B20 /* JKImageTool */,
 				E0701E341FE12FCA00CA3B20 /* AppDelegate.h */,
 				E0701E351FE12FCA00CA3B20 /* AppDelegate.m */,
 				E0701E371FE12FCA00CA3B20 /* ViewController.h */,
@@ -130,6 +134,15 @@
 				E0701E5A1FE12FCA00CA3B20 /* Info.plist */,
 			);
 			path = JKImageToolUITests;
+			sourceTree = "<group>";
+		};
+		E0701E661FE1300400CA3B20 /* JKImageTool */ = {
+			isa = PBXGroup;
+			children = (
+				E0701E6A1FE1304300CA3B20 /* JKImageTool.h */,
+				E0701E6B1FE1304300CA3B20 /* JKImageTool.m */,
+			);
+			path = JKImageTool;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,6 +278,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0701E6C1FE1304300CA3B20 /* JKImageTool.m in Sources */,
 				E0701E391FE12FCA00CA3B20 /* ViewController.m in Sources */,
 				E0701E441FE12FCA00CA3B20 /* main.m in Sources */,
 				E0701E361FE12FCA00CA3B20 /* AppDelegate.m in Sources */,
